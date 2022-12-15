@@ -1,11 +1,3 @@
-
-/*Create an array with all choices
-Prompt user to make a choice from array
-Make computer make a random choice from array
-Compare choices using switch 
-Print results */
-
-
 var items = ["rock", "paper", "scissors"];
 
 var rock = items[0];
@@ -16,7 +8,6 @@ var wins = 0;
 var loses = 0;
 var draws = 0;
 var round = 0;
-
 
 for (var i = 0; i < 3; i++) {
 
@@ -112,6 +103,3 @@ else     {
 var playAgain = alert ("Try again? Press enter");
 
  window.location.reload();
-
-
-
