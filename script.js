@@ -97,7 +97,7 @@ else if (wins > loses) {
  }
 
 else     {
-    alert (wins + " wins, " + loses + " loses, " + draws + "draws. It's a draw!")
+    alert (wins + " wins, " + loses + " loses, " + draws + " draws. It's a draw!")
 };
 
 var playAgain = alert ("Try again? Press enter");
